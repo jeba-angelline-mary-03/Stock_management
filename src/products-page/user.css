@@ -1,0 +1,32 @@
+
+.viewproducts_user{
+    width: 100%;
+    height: 100%;
+}
+
+.viewproducts_user tr td:first-child::before{
+    counter-increment: Serial;
+    content: counter(Serial); 
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.viewproducts_user table,th,td{
+   border: 1px solid black;
+}
+.viewproducts_user table{
+    margin:2% 7%;
+    background-color: rgb(230, 216, 216);
+}
+
+.viewproducts_user th,td{
+    padding:10px 20px;
+}
+ 
+svg{
+    padding-bottom: 3px;
+    padding-right: 2px;
+}
